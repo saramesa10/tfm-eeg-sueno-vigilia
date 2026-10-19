@@ -32,15 +32,6 @@ Los datos no se incluyen en este repositorio. Hay que descargarlos y colocarlos 
 
 En cada carpeta, el cuaderno con «completo» en el nombre corresponde al conjunto completo (153 registros). Los demás son las pruebas con el conjunto reducido (20 sujetos). Cada carpeta incluye también las figuras que genera el cuaderno (matriz de confusión, curva ROC y curvas de entrenamiento).
 
-## Orden de ejecución
-
-1. `Preprocesamientos`: genera los datos procesados.
-2. `SVM`: extracción de características y entrenamiento de las dos SVM.
-3. `CNN-1D`, `CNN+LSTM` y `EEGNET`: entrenamiento y evaluación de las redes.
-4. `Señales`: figuras y análisis de patrones.
-
-Los cuadernos usan rutas absolutas del equipo donde se ejecutaron, por lo que hay que adaptarlas antes de ejecutarlos.
-
 ## Resultados con el conjunto completo
 
 Conjunto de prueba con 12 sujetos y 44.733 épocas.
