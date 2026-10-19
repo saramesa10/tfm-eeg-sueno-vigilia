@@ -54,7 +54,5 @@ Python con MNE (lectura de los registros EEG), TensorFlow/Keras (redes neuronale
 - No se fijó la semilla de inicialización de las redes, por lo que una nueva ejecución puede dar resultados ligeramente distintos a los de la memoria.
 - Los tiempos de entrenamiento se midieron en una CPU, sin GPU.
 
-## Memoria del TFM
 
-Trabajo Fin de Máster, Universidad Internacional de Valencia, octubre de 2026.
 
